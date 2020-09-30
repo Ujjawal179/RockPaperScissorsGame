@@ -108,11 +108,11 @@ class Game:
 
     def final_result(self):
         if game.p1s > game.p2s:
-            print(u"\u001b[32m\n** CONGRATULATIONS! YOU WIN! **\n\u001b[0m")
+            print(u"\u001b[32m\n** Great your guess is right \n Wow, you won ;-) **\n\u001b[0m")
         elif game.p1s == game.p2s:
             print(u"\u001b[33m\n** IT'S A TIE! **\n\u001b[0m")
         else:
-            print(u"\u001b[31m\n** YOU LOOSE **\n\u001b[0m")
+            print(u"\u001b[31m\n** Better luck next time and answer was {n}. \n GAME OVER **\n\u001b[0m")
 
 
 if __name__ == '__main__':
